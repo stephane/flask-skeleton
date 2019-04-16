@@ -9,7 +9,7 @@ Install
 
     $ pip install -r requirements_dev.txt -e .
 
-Create a PostgreSQL DB called 'skeleton' or tweak config via 'instance/instance.py' file.
+Create a PostgreSQL DB called `skeleton` or tweak config via 'instance/instance.py' file.
 
     $ export FLASK_APP=dev
     $ flask initdb --fixtures
@@ -24,6 +24,8 @@ There are files called dev.py and prod.py in root directory:
 
 To run tests
 ------------
+
+Before launching tests, you need to create a PostgreSQL DB called `skeleton_test`.
 
     $ ./setup.py test
     $ py.test --durations=3 -s --pdb
