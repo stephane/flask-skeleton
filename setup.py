@@ -27,6 +27,7 @@ setup(
         "Flask-SQLAlchemy~=2.4.0",
         "psycopg2-binary~=2.8.3",
         "SQLAlchemy~=1.3.6",
+        "werkzeug>=0.15.3",
     ],
     setup_requires=["pytest-runner"],
     tests_require=["pytest"],
